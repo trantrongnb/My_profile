@@ -1,0 +1,126 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+.header-text {
+  flex: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.contact-info a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #ddd;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #666;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.entry {
+  margin-bottom: 30px;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.entry-sub {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Định dạng cho link chứng chỉ */
+.cert-link {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .entry-header {
+    flex-direction: column;
+  }
+  .container {
+    margin: 40px auto;
+  }
+}
